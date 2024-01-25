@@ -59,70 +59,66 @@
                     <p>Curabitur sit amet turpis cursus massa mollis <span style="background-color: yellow;">highlighted</span>. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend <span style="background-color: yellow;">highlighted</span> mi consequat ut. Cras nec quam sed sapien ultricies <span style="background-color: yellow;">highlighted</span> ut sed metus. Each occurrence of the word <span style="background-color: yellow;">highlighted</span> should be highlighted.</p>
                 </div>
             </section>
-        </section>
-    </main>
-</body>
 
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- The head content here -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Styleguide - Techium</title> <!-- Updated title -->
-    <meta name="description" content="Techium is a digital agency">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="icon" type="image/png" href="./favicon.jpg">
-</head>
-
-<body>
-    <main>
-        <!-- Existing sections... -->
-
-        <!-- Blockquotes section -->
-        <!-- Comment with text Blockquotes -->
-        <!-- New section with a header and a div for blockquotes -->
-        <section>
-            <header>
-                <h2>Blockquotes</h2>
-            </header>
-            <div>
-                <!-- Inline quote -->
-                <h3>Inline quote</h3>
-                <p>Stay hungry. Stay foolish.</p>
-
-                <!-- Blockquote -->
-                <h3>Blockquote</h3>
-                <blockquote>
-                    I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.
-                    <cite>Kanye West, Musician</cite>
-                </blockquote>
-            </div>
-
-            <!-- New line and comment with text Typography -->
-            <!-- New section with a header and two divs for typography -->
+            <!-- New line and comment with text Table -->
+            <!-- New section with a header and a table for tables -->
             <br>
-            <!-- Comment with text Typography -->
-            <p><!-- Typography --></p>
+            <!-- Comment with text Table -->
+            <p><!-- Table --></p>
             <section>
                 <header>
-                    <h2>Typography</h2>
+                    <h2>Table</h2>
+                </header>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Director</th>
+                            <th scope="col">Release Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">The Shawshank Redemption</th>
+                            <td>Frank Darabont</td>
+                            <td>1994</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">The Godfather</th>
+                            <td>Francis Ford Coppola</td>
+                            <td>1972</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pulp Fiction</th>
+                            <td>Quentin Tarantino</td>
+                            <td>1994</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- New line and comment with text Details -->
+            <!-- New section with a header and two divs for details -->
+            <br>
+            <!-- Comment with text Details -->
+            <p><!-- Details --></p>
+            <section>
+                <header>
+                    <h2>Details</h2>
                 </header>
                 <div>
-                    320 Stewart Avenue, Unit 12<br>New York City, NY 10001
+                    <h3>Default</h3>
+                    <details>
+                        <summary>Show/Hide me</summary>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </details>
                 </div>
                 <div>
-                    <pre>
-<code>
-    <h2>My title</h2>
-    <p>Proin lacus turpis, feugiat sit amet sollicitudin non, volutpat in libero. Aenean hendrerit ultrices nulla ac lobortis. Vestibulum consectetur nibh vel ante rhoncus faucibus.</p>
-</code>
-</pre>
-                </div>
-                <div>
-                    <p>Curabitur sit amet turpis cursus massa mollis <span style="background-color: yellow;">highlighted</span>. Duis finibus leo massa, eget dapibus erat finibus sed. Aenean condimentum sapien magna, eleifend <span style="background-color: yellow;">highlighted</span> mi consequat ut. Cras nec quam sed sapien ultricies <span style="background-color: yellow;">highlighted</span> ut sed metus. Each occurrence of the word <span style="background-color: yellow;">highlighted</span> should be highlighted.</p>
+                    <h3>Open</h3>
+                    <details open>
+                        <summary>Always open</summary>
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </details>
                 </div>
             </section>
         </section>
